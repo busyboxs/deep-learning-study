@@ -355,6 +355,8 @@ with fluid.scope_guard(inference_scope):
     print("Infer results: {}".format(class_name[np.argmax(results[0])]))
 ```
 
+代码的具体输出结果可以点击[这里](classification_cifar10.ipynb)查看。
+
 ## 参考文献
 
 [1] [Gradient-Based Learning Applied to Document Recognition](http://yann.lecun.com/exdb/publis/pdf/lecun-01a.pdf)
